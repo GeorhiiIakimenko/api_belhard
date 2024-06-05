@@ -23,7 +23,7 @@ Session = sessionmaker(bind=engine)
 session = Session()
 
 # OpenAI API key
-openai.api_key = 'sk-proj-00iAigpFsjs1rU5F5wERT3BlbkFJP1gXVdr0PEVnpE6PUsjl'
+openai.api_key = 'api'
 
 # Define a model to store client data
 class ClientData(Base):
